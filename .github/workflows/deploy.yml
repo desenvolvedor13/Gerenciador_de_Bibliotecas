@@ -32,9 +32,7 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no bitnami@34.230.77.184 << 'EOF'
             cd /opt/bitnami/apache2/htdocs/Gerenciador_de_Bibliotecas
-            git add .
-            #Salvando alterações locais antes de fazer o pull
-            git commit -m 
+            git reset --hard HEAD
             git pull origin master
             # Adicione outros comandos de deploy conforme necessário
           EOF

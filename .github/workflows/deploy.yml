@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: Deploy to Lightsail
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Deploy to server
+      - name: Deploy to Lightsail
         run: |
           ssh -o StrictHostKeyChecking=no bitnami@34.230.77.184 << 'EOF'
             cd /opt/bitnami/apache2/htdocs/Gerenciador_de_Bibliotecas

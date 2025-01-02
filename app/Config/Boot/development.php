@@ -9,6 +9,13 @@
  | painful debugging.
  |
  | If you set 'display_errors' to '1', CI4's detailed error report will show.
+ * comando para erro de permissçao gravação 
+ * 
+ * sudo find /opt/bitnami/ap
+ache2/htdocs/Gerenciador_de_Bibliotecas/writable/cache -type d -exec chmod 775 {}  \;
+ * 
+ * resolvel problema do cache
+ * 
  */
 error_reporting(E_ALL);
 ini_set('display_errors', '1');

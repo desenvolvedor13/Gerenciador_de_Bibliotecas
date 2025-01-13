@@ -35,7 +35,7 @@ class PessoaModel extends Model
         } 
         $user = $query->getRowArray();
         if (!$user) {
-            log_message('error', "Nenhum usuário encontrado para o email: {$email}");
+            log_message('error', "Nenhum usuário encontrado para a pessoa: {$pessoa_id}");
         }
         // O que retorna da consulta.
         //var_dump($user); die;

@@ -22,20 +22,20 @@ class RoleModel extends Model
      */
     public function getRole($role_id)
     {
-        // Instância do modelo de roles
-        $roleModel = new \App\Models\RoleModel();
-        
-        log_message('info', "Buscando role pelo role_id: {$role_id}");
-        // Consulta ao banco de dados
-        $role = $roleModel->find($role_id);
-        
-        // Verificação do resultado
-        if ($role) {
-            log_message('info', "Role encontrado: " . json_encode($role));
+        $db = Database::connect();
+        if ($db->connect_error) {
+            die('Erro ao conectar: ' . $db->connect_error); die;
         } else {
-            log_message('error', "Nenhum role encontrado para o role_id: {$role_id}");
+            $Conectado = 'Conexão bem-sucedida!';
+            echo $Conectado;
+            $builder = $db->table('roles');
+            $builder->where('id', $role_id);
+            $query = $builder->get();
+        } 
+        $role = $query->getRowArray();
+        if (!$role) {
+            log_message('error', "Nenhum usuário encontrado para o role_id: {$role_id}");
         }
-
         return $role;
     }
 

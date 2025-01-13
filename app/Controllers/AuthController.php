@@ -53,7 +53,7 @@ class AuthController extends Controller
                 'user_id' => $login['id'],
                 'email' => $login['email'],
                 'nome' => $user['nome'],
-                'role' => $role['role_name'] ?? 'Desconhecido'
+                'role' => $role['name'] ?? 'Desconhecido'
         ]);
 
         return redirect()->to('/boas-vindas');

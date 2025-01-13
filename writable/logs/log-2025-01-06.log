@@ -1,0 +1,201 @@
+CRITICAL - 2025-01-06 16:47:33 --> ErrorException: Cannot redeclare Config\Filters::$globals
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:48:34 --> ErrorException: Cannot redeclare Config\Filters::$filters
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 112.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:48:44 --> ErrorException: Cannot redeclare Config\Filters::$globals
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:48:53 --> ErrorException: Cannot redeclare Config\Filters::$globals
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:49:35 --> ErrorException: Cannot redeclare Config\Filters::$filters
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 110.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:49:59 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:56:20 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:58:11 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:58:13 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:58:49 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 16:59:20 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:00:30 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:01:52 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:03:11 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:04:05 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 17:06:30 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 17:06:33 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 17:06:34 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 17:06:36 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 17:08:00 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:08:24 --> ErrorException: Type of Config\Filters::$filters must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:09:01 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:09:16 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 17:12:40 --> ErrorException: Cannot redeclare Config\Filters::$aliases
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-06 17:14:07 --> ErrorException: Type of Config\Filters::$globals must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-06 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 18:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 18:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 18:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 18:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 18:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 18:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 18:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 20:56:36 --> ParseError: Unterminated comment starting line 26
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 21:24:59 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: login]
+in APPPATH\Controllers\LoginController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 21:25:02 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: login]
+in APPPATH\Controllers\LoginController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

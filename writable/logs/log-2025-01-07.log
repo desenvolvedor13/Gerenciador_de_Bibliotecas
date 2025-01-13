@@ -1,0 +1,1344 @@
+CRITICAL - 2025-01-07 12:43:26 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "('"
+[Method: POST, Route: %28%27/authenticate%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('(\'/authenticate\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('(\'/authenticate\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 12:45:37 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "('"
+[Method: POST, Route: %28%27/authenticate%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('(\'/authenticate\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('(\'/authenticate\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 12:45:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "'"
+[Method: POST, Route: %27/authenticate%27]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('\'/authenticate\'')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('\'/authenticate\'')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 17:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 17:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 17:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 17:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 17:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-07 18:08:17 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\auth/AuthController::login"
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\auth/AuthController::login')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 18:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:11:45 --> Tentativa de acessar: /SIG_B/public/index.php/authenticate
+DEBUG - 2025-01-07 18:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:14:44 --> Tentativa de acessar: /SIG_B/public/index.php/authenticate
+DEBUG - 2025-01-07 18:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:15:24 --> Tentativa de acessar: /SIG_B/public/index.php/authenticate
+DEBUG - 2025-01-07 18:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:20:17 --> Tentativa de acessar: /SIG_B/public/index.php/
+DEBUG - 2025-01-07 18:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:20:19 --> Tentativa de acessar: /SIG_B/public/index.php/authenticate
+DEBUG - 2025-01-07 18:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:23:13 --> Tentativa de acessar: /SIG_B/public/index.php/authenticate
+DEBUG - 2025-01-07 18:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:30:47 --> Tentativa de acessar: /SIG_B/public/index.php/authenticate
+DEBUG - 2025-01-07 18:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:30:55 --> Tentativa de acessar: /SIG_B/public/index.php/authenticate
+DEBUG - 2025-01-07 18:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-07 18:32:30 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('authenticate', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 18:32:37 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('authenticate', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 18:34:00 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('authenticate', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 18:34:03 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('authenticate', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 18:35:39 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('authenticate', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 18:35:53 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('authenticate', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-07 18:38:23 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:38:23 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:38:24 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:38:24 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:39:30 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:39:30 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:39:31 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:39:31 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:41:16 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:41:16 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:41:55 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:41:55 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:41:56 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:41:56 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:42:52 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:52 --> Método authenticate chamado.
+INFO - 2025-01-07 18:42:52 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:52 --> Método authenticate chamado.
+INFO - 2025-01-07 18:42:52 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:52 --> Método authenticate chamado.
+INFO - 2025-01-07 18:42:52 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:52 --> Método authenticate chamado.
+INFO - 2025-01-07 18:42:52 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:52 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:42:52 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:52 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:42:56 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:56 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:42:57 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:42:57 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:43:03 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:43:03 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:43:03 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:43:03 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:43:04 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:43:04 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:43:04 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:43:04 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:43:04 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:43:04 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:45:50 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:45:50 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:47:29 --> Dados recebidos: {"email":"lucas3@gmail.com","senha":"123456"}
+INFO - 2025-01-07 18:47:29 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:47:52 --> Dados recebidos: {"email":"teste@dominio.com","senha":"senha123"}
+INFO - 2025-01-07 18:47:52 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-07 18:47:52 --> ErrorException: Undefined variable $role
+[Method: GET, Route: boas-vindas]
+in APPPATH\Views\inicio\index.php on line 12.
+ 1 APPPATH\Views\inicio\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/index', [], true)
+ 5 APPPATH\Controllers\InicioController.php(17): view('inicio/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InicioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-07 18:56:34 --> Dados recebidos: {"email":"teste@dominio.com","senha":"senha123"}
+INFO - 2025-01-07 18:56:34 --> Método authenticate chamado.
+DEBUG - 2025-01-07 18:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:56:34 --> Role na sessão: 
+CRITICAL - 2025-01-07 19:05:36 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:08:59 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:10:49 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:12:29 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:12:34 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:12:59 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:13:05 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:14:53 --> Error: Class "App\Controllers\UsuariosModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:15:44 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:15:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:15:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:15:44 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:16:11 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:16:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:16:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:16:11 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:26:04 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:26:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:26:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:26:04 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:27:34 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:27:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:27:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:27:34 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:28:27 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:28:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:28:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:28:27 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:34:12 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:34:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:34:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:34:12 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 19:35:24 --> Autenticação iniciada com email: teste@dominio.com
+ERROR - 2025-01-07 19:35:24 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(28): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:35:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(28): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:35:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(28): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:35:24 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(28): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:40:27 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:40:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:40:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:40:27 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:40:35 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:40:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:40:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:40:35 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:45:58 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:45:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:45:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:45:58 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'teste@dominio.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 19:46:09 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-07 19:46:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:46:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'samuellucas58@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'samuellucas58@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 19:46:09 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `usuarios`
+WHERE `email` = \'samuellucas58@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+WHERE `email` = \'samuellucas58@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+WHERE `email` = \'samuellucas58@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 19:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:51:29 --> Role na sessão: 
+DEBUG - 2025-01-07 19:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:51:43 --> Role na sessão: 
+DEBUG - 2025-01-07 19:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:51:47 --> Role na sessão: 
+DEBUG - 2025-01-07 20:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:28:56 --> Role na sessão: 
+DEBUG - 2025-01-07 20:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:31:56 --> Role na sessão: 
+DEBUG - 2025-01-07 20:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:32:20 --> Role na sessão: 
+DEBUG - 2025-01-07 20:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:36:50 --> Role na sessão: 
+DEBUG - 2025-01-07 20:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:36:53 --> Role na sessão: 
+DEBUG - 2025-01-07 20:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:39:43 --> Role na sessão: 
+DEBUG - 2025-01-07 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:40:43 --> Role na sessão: 
+DEBUG - 2025-01-07 20:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:41:51 --> Role na sessão: 
+DEBUG - 2025-01-07 20:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:41:55 --> Role na sessão: 
+DEBUG - 2025-01-07 20:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:42:09 --> Role na sessão: 
+CRITICAL - 2025-01-07 20:43:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 26.
+ 1 APPPATH\Controllers\AuthController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\AuthController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 20:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:47:40 --> Role na sessão: 
+DEBUG - 2025-01-07 20:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:48:22 --> Role na sessão: 
+DEBUG - 2025-01-07 20:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:49:09 --> Role na sessão: 
+DEBUG - 2025-01-07 20:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:52:02 --> Role na sessão: 
+CRITICAL - 2025-01-07 20:52:02 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: boas-vindas]
+in APPPATH\Views\inicio\index.php on line 12.
+ 1 APPPATH\Views\inicio\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/index', [], true)
+ 5 APPPATH\Controllers\InicioController.php(17): view('inicio/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InicioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 20:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:52:05 --> Role na sessão: 
+CRITICAL - 2025-01-07 20:52:05 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: boas-vindas]
+in APPPATH\Views\inicio\index.php on line 12.
+ 1 APPPATH\Views\inicio\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/index', [], true)
+ 5 APPPATH\Controllers\InicioController.php(17): view('inicio/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InicioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 20:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:56:32 --> Role na sessão: 
+CRITICAL - 2025-01-07 20:56:32 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: boas-vindas]
+in APPPATH\Views\inicio\index.php on line 12.
+ 1 APPPATH\Views\inicio\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/index', [], true)
+ 5 APPPATH\Controllers\InicioController.php(17): view('inicio/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InicioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 20:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:57:15 --> Role na sessão: 
+CRITICAL - 2025-01-07 20:57:15 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: boas-vindas]
+in APPPATH\Views\inicio\index.php on line 16.
+ 1 APPPATH\Views\inicio\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\SIG_B\\app\\Views\\inicio\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/index', [], true)
+ 5 APPPATH\Controllers\InicioController.php(17): view('inicio/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InicioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-07 20:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:57:33 --> Role na sessão: 
+DEBUG - 2025-01-07 20:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:58:25 --> Role na sessão: 
+DEBUG - 2025-01-07 20:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:59:00 --> Role na sessão: 
+DEBUG - 2025-01-07 20:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:59:26 --> Role na sessão: 
+DEBUG - 2025-01-07 20:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 20:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 20:59:44 --> Role na sessão: 

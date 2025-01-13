@@ -1,5 +1,9 @@
 <?php
 
+
+// load environment settings from .env file into $_SERVER and $_ENV
+// loadEnvironmentVars(); // Comente esta linha
+
 /*
  |--------------------------------------------------------------------------
  | ERROR DISPLAY

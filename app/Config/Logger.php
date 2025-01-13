@@ -38,6 +38,9 @@ class Logger extends BaseConfig
      *
      * @var int|list<int>
      */
+    
+
+    public $logThreshold = 4; // Registra todos os tipos de log
     public $threshold = (ENVIRONMENT === 'production') ? 4 : 9;
 
     /**

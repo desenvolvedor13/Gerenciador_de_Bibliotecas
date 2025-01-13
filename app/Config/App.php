@@ -6,6 +6,18 @@ use CodeIgniter\Config\BaseConfig;
 
 class App extends BaseConfig
 {
+    public $displayErrors = true;
+    public $sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'; // 
+    public $sessionSavePath = WRITEPATH . 'session'; //
+    public $sessionCookieName    = 'ci_session';
+    public $sessionExpiration    = 7200;
+    public $sessionMatchIP       = false;
+    public $sessionTimeToUpdate  = 300;
+    public $sessionRegenerateDestroy = false;
+
+
+    public $env = 'development';
+
     /**
      * --------------------------------------------------------------------------
      * Base Site URL
@@ -17,7 +29,8 @@ class App extends BaseConfig
      * E.g., http://example.com/
      */
     //public string $baseURL = 'http://localhost:8080/';
-    public string $baseURL = 'http://34.230.77.184/Gerenciador_de_Bibliotecas/';
+     public $baseURL = 'http://localhost/SIG_B/public/';
+    //public string $baseURL = 'http://34.230.77.184/Gerenciador_de_Bibliotecas/';
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
      * If you want to accept multiple Hostnames, set this.

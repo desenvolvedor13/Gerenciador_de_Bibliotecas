@@ -1,0 +1,96 @@
+CRITICAL - 2025-01-08 18:33:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 26.
+ 1 APPPATH\Controllers\AuthController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\AuthController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 18:34:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 26.
+ 1 APPPATH\Controllers\AuthController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\AuthController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-08 18:43:21 --> Tentando autenticar o email: admin@example.com
+INFO - 2025-01-08 18:45:50 --> Tentando autenticar o email: admin@example.com
+INFO - 2025-01-08 18:46:24 --> Tentando autenticar o email: admin@example.com
+INFO - 2025-01-08 18:47:46 --> Tentando autenticar o email: admin@example.com
+DEBUG - 2025-01-08 18:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 18:47:48 --> Tentando autenticar o email: admin@example.com
+DEBUG - 2025-01-08 18:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 18:47:52 --> Tentando autenticar o email: admin@example.com
+DEBUG - 2025-01-08 18:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 18:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 18:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 18:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 18:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 18:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 18:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:10:07 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:10:07 --> Nenhum usuário encontrado para o email: admin@example.com
+DEBUG - 2025-01-08 19:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:10:08 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:10:08 --> Nenhum usuário encontrado para o email: admin@example.com
+DEBUG - 2025-01-08 19:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:14:16 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:14:16 --> Nenhum usuário encontrado para o email: admin@example.com
+DEBUG - 2025-01-08 19:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:14:19 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:14:19 --> Nenhum usuário encontrado para o email: admin@example.com
+DEBUG - 2025-01-08 19:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:14:36 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:14:36 --> Nenhum usuário encontrado para o email: admin@example.com
+DEBUG - 2025-01-08 19:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:16:56 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:16:56 --> Nenhum usuário encontrado para o email: admin@example.com
+DEBUG - 2025-01-08 19:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:17:15 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:17:15 --> Nenhum usuário encontrado para o email: admin@example.com
+DEBUG - 2025-01-08 19:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 19:18:06 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:18:06 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-08 19:41:40 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:41:40 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-08 19:42:14 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:42:14 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-08 19:42:42 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:42:42 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-08 19:42:51 --> Buscando usuário pelo email: admin@example.com
+ERROR - 2025-01-08 19:42:51 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-08 19:50:26 --> Buscando usuário pelo email: admin@example.com
+INFO - 2025-01-08 19:54:59 --> Buscando usuário pelo email: admin@example.com
+INFO - 2025-01-08 20:11:15 --> Buscando usuário pelo email: admin@example.com
+CRITICAL - 2025-01-08 20:11:15 --> Error: Call to a member function getPost() on null
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 26.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-08 20:11:29 --> Buscando usuário pelo email: admin@example.com
+INFO - 2025-01-08 20:24:13 --> Buscando usuário pelo email: admin@example.com
+CRITICAL - 2025-01-08 20:24:13 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 31.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-08 20:26:41 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-08 20:26:41 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-08 20:26:41 --> Resultado: null

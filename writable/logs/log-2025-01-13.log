@@ -1,0 +1,695 @@
+INFO - 2025-01-13 12:26:34 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:26:34 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:26:34 --> Resultado: null
+INFO - 2025-01-13 12:34:53 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:34:53 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:34:53 --> Resultado: null
+INFO - 2025-01-13 12:35:02 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:35:02 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:35:02 --> Resultado: null
+INFO - 2025-01-13 12:36:19 --> Buscando usuário pelo email: teste@dominio.com
+DEBUG - 2025-01-13 12:36:19 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'teste@dominio.com'
+DEBUG - 2025-01-13 12:36:19 --> Resultado: null
+INFO - 2025-01-13 12:44:07 --> Buscando usuário pelo email: teste@dominio.com
+DEBUG - 2025-01-13 12:44:07 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'teste@dominio.com'
+DEBUG - 2025-01-13 12:44:07 --> Resultado: null
+INFO - 2025-01-13 12:44:45 --> Buscando usuário pelo email: teste@dominio.com
+DEBUG - 2025-01-13 12:44:45 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'teste@dominio.com'
+DEBUG - 2025-01-13 12:44:45 --> Resultado: null
+ERROR - 2025-01-13 12:44:45 --> Nenhum usuário encontrado para o email: teste@dominio.com
+INFO - 2025-01-13 12:47:38 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:47:38 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:47:38 --> Resultado: null
+INFO - 2025-01-13 12:48:48 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:48:48 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:48:48 --> Resultado: null
+INFO - 2025-01-13 12:48:52 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:48:52 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:48:52 --> Resultado: null
+INFO - 2025-01-13 12:49:07 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:49:07 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:49:07 --> Resultado: null
+ERROR - 2025-01-13 12:49:07 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-13 12:50:06 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:50:06 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:50:06 --> Resultado: null
+INFO - 2025-01-13 12:50:06 --> Usuário encontrado: {"connID":{},"resultID":{},"resultArray":[],"resultObject":[],"customResultObject":[],"currentRow":0,"rowData":null}
+INFO - 2025-01-13 12:51:23 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:51:23 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:51:23 --> Resultado: null
+INFO - 2025-01-13 12:51:23 --> Usuário encontrado: {"connID":{},"resultID":{},"resultArray":[],"resultObject":[],"customResultObject":[],"currentRow":0,"rowData":null}
+CRITICAL - 2025-01-13 12:51:23 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-13 12:51:56 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:51:56 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:51:56 --> Resultado: null
+INFO - 2025-01-13 12:51:56 --> Usuário encontrado: {"connID":{},"resultID":{},"resultArray":[],"resultObject":[],"customResultObject":[],"currentRow":0,"rowData":null}
+CRITICAL - 2025-01-13 12:51:56 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 42.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-13 12:52:26 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:52:26 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:52:26 --> Resultado: null
+INFO - 2025-01-13 12:52:26 --> Usuário encontrado: {"connID":{},"resultID":{},"resultArray":[],"resultObject":[],"customResultObject":[],"currentRow":0,"rowData":null}
+CRITICAL - 2025-01-13 12:52:26 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 42.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-13 12:53:44 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:53:44 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:53:44 --> Resultado: null
+ERROR - 2025-01-13 12:53:44 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-13 12:59:29 --> Buscando usuário pelo email: admin@example.com
+DEBUG - 2025-01-13 12:59:29 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'admin@example.com'
+DEBUG - 2025-01-13 12:59:29 --> Resultado: null
+ERROR - 2025-01-13 12:59:29 --> Nenhum usuário encontrado para o email: admin@example.com
+INFO - 2025-01-13 13:01:35 --> Buscando usuário pelo email: teste@teste.com
+DEBUG - 2025-01-13 13:01:35 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'teste@teste.com'
+DEBUG - 2025-01-13 13:01:35 --> Resultado: null
+ERROR - 2025-01-13 13:01:35 --> Nenhum usuário encontrado para o email: teste@teste.com
+INFO - 2025-01-13 13:01:46 --> Buscando usuário pelo email: teste@teste.com
+DEBUG - 2025-01-13 13:01:46 --> Consulta SQL: SELECT *
+FROM `logins`
+WHERE `email` = 'teste@teste.com'
+DEBUG - 2025-01-13 13:01:46 --> Resultado: null
+ERROR - 2025-01-13 13:01:46 --> Nenhum usuário encontrado para o email: teste@teste.com
+INFO - 2025-01-13 13:03:01 --> Tentando buscar usuário com email: teste@teste.com
+ERROR - 2025-01-13 13:03:01 --> Erro na conexão com o banco de dados.
+CRITICAL - 2025-01-13 13:03:01 --> RuntimeException: Falha ao conectar ao banco de dados.
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 28.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('teste@teste.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-13 13:06:16 --> Tentando buscar usuário com email: teste@teste.com
+ERROR - 2025-01-13 13:06:16 --> Erro na conexão com o banco de dados.
+CRITICAL - 2025-01-13 13:06:16 --> RuntimeException: Falha ao conectar ao banco de dados.
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 28.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('teste@teste.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-13 13:16:08 --> Tentando buscar usuário com email: teste@teste.com
+ERROR - 2025-01-13 13:16:08 --> Erro na conexão com o banco de dados.
+CRITICAL - 2025-01-13 13:16:08 --> RuntimeException: Falha ao conectar ao banco de dados.
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 28.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('teste@teste.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 13:35:46 --> Error: Class "App\Models\mysqli" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 13:39:38 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "PDO"
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('PDO')
+ 2 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:02:25 --> ParseError: Unclosed '{' on line 21
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 83.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\SIG_B\\app\\Models\\LoginModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LoginModel')
+ 3 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LoginModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:03:53 --> ErrorException: Undefined variable $mysqli
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 23.
+ 1 APPPATH\Models\LoginModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'D:\\xampp\\htdocs\\SIG_B\\app\\Models\\LoginModel.php', 23)
+ 2 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:04:21 --> Error: Class "App\Models\mysqli" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:06:36 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "mysqli"
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('mysqli')
+ 2 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:08:29 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "mysqli"
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('mysqli')
+ 2 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 14:15:39 --> Erro na conexão com o banco de dados.
+CRITICAL - 2025-01-13 14:15:39 --> RuntimeException: Falha ao conectar ao banco de dados.
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 38.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:16:40 --> ErrorException: Attempt to read property "errno" on bool
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 586.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'D:\\xampp\\htdocs\\SIG_B\\system\\Database\\MySQLi\\Connection.php', 586)
+ 2 APPPATH\Models\LoginModel.php(26): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:17:35 --> ErrorException: Attempt to read property "errno" on bool
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 586.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'D:\\xampp\\htdocs\\SIG_B\\system\\Database\\MySQLi\\Connection.php', 586)
+ 2 APPPATH\Models\LoginModel.php(26): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 14:18:55 --> Erro na conexão com o banco de dados.
+CRITICAL - 2025-01-13 14:18:55 --> RuntimeException: Falha ao conectar ao banco de dados.
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 46.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:19:57 --> Error: Class "App\Models\mysqli" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:20:50 --> Error: Class "Swoole\MySQL" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:21:05 --> Error: Class "App\Models\MySQL" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:21:34 --> Error: Class "CodeIgniter\Database\MySQLi" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:21:53 --> Error: Class "App\Models\mysqli" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:22:22 --> Error: Class "App\Models\mysqli" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 14:27:46 --> Erro na conexão com o banco de dados.
+CRITICAL - 2025-01-13 14:27:46 --> RuntimeException: Falha ao conectar ao banco de dados.
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 39.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:31:07 --> ErrorException: Array to string conversion
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 41.
+ 1 APPPATH\Models\LoginModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\SIG_B\\app\\Models\\LoginModel.php', 41)
+ 2 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 14:31:18 --> ErrorException: Array to string conversion
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 41.
+ 1 APPPATH\Models\LoginModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\SIG_B\\app\\Models\\LoginModel.php', 41)
+ 2 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 17:37:48 --> Error: Class "App\Models\Config\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 24.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 17:40:41 --> Error: Class "CodeIgniter\Database\Config\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 25.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 17:43:34 --> Error: Class "CodeIgniter\Database\Config\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 24.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 17:44:09 --> Error: Class "App\Config\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 24.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 17:44:26 --> Error: Class "App\Models\App\Config\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 24.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 17:45:12 --> Error: Class "App\Models\App\Config\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 24.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 17:45:21 --> Error: Class "CodeIgniter\Database\Config\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 25.
+ 1 APPPATH\Controllers\AuthController.php(24): App\Models\LoginModel->getUserByEmail('admin@example.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:07:13 --> CodeIgniter\Filters\Exceptions\FilterException: "session" filter must have a matching alias defined.
+[Method: GET, Route: login]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('session')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:12:41 --> Error: Class "CodeIgniter\Filters\SessionAuth" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:12:45 --> Error: Class "CodeIgniter\Filters\SessionAuth" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:30:54 --> Error: Class "App\Models\RoleModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 65.
+ 1 APPPATH\Controllers\AuthController.php(39): App\Models\LoginModel->getRole(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:34:03 --> Error: Class "App\Models\RoleModel" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\LoginModel.php on line 66.
+ 1 APPPATH\Controllers\AuthController.php(39): App\Models\LoginModel->getRole('1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:40:07 --> ErrorException: Undefined variable $RoleModel
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 39.
+ 1 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RoleModel', 'D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\AuthController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:41:07 --> ErrorException: Undefined variable $RoleModel
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 40.
+ 1 APPPATH\Controllers\AuthController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RoleModel', 'D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\AuthController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 18:41:11 --> ErrorException: Undefined variable $RoleModel
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 40.
+ 1 APPPATH\Controllers\AuthController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RoleModel', 'D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\AuthController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 19:15:47 --> ErrorException: Undefined array key "pesspa_id"
+[Method: POST, Route: authenticate]
+in APPPATH\Controllers\AuthController.php on line 47.
+ 1 APPPATH\Controllers\AuthController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesspa_id"', 'D:\\xampp\\htdocs\\SIG_B\\app\\Controllers\\AuthController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 19:15:59 --> Error: Class "App\Models\Database" not found
+[Method: POST, Route: authenticate]
+in APPPATH\Models\PessoaModel.php on line 24.
+ 1 APPPATH\Controllers\AuthController.php(47): App\Models\PessoaModel->getUser('1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 19:16:32 --> mysqli_sql_exception: Unknown column 'pessoa_id' in 'where clause' in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\app\Models\PessoaModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(47): App\Models\PessoaModel->getUser('1')
+#6 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-13 19:16:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pessoa_id' in 'where clause'
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = :pessoa_id:', [...], false)
+ 2 APPPATH\Models\PessoaModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AuthController.php(47): App\Models\PessoaModel->getUser('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 19:16:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pessoa_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = :pessoa_id:', [...], false)
+ 4 APPPATH\Models\PessoaModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\AuthController.php(47): App\Models\PessoaModel->getUser('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 19:16:32 --> [Caused by] mysqli_sql_exception: Unknown column 'pessoa_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoa`
+WHERE `pessoa_id` = :pessoa_id:', [...], false)
+ 5 APPPATH\Models\PessoaModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AuthController.php(47): App\Models\PessoaModel->getUser('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 19:26:09 --> mysqli_sql_exception: Table 'sig_biblioteca.reles' doesn't exist in D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\SIG_B\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\SIG_B\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\SIG_B\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\SIG_B\app\Models\RoleModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\SIG_B\app\Controllers\AuthController.php(43): App\Models\RoleModel->getRole('1')
+#6 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#7 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 D:\xampp\htdocs\SIG_B\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\SIG_B\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\SIG_B\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\SIG_B\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-13 19:26:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sig_biblioteca.reles' doesn't exist
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `reles`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\RoleModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AuthController.php(43): App\Models\RoleModel->getRole('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 19:26:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sig_biblioteca.reles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `reles`
+WHERE `id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `reles`
+WHERE `id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `reles`
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH\Models\RoleModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\AuthController.php(43): App\Models\RoleModel->getRole('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 19:26:09 --> [Caused by] mysqli_sql_exception: Table 'sig_biblioteca.reles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `reles`
+WHERE `id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `reles`
+WHERE `id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `reles`
+WHERE `id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `reles`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\RoleModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AuthController.php(43): App\Models\RoleModel->getRole('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

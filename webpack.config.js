@@ -17,18 +17,22 @@ module.exports = {
                     loader: 'babel-loader',
                     options: {
                         presets: [
-                            '@babel/preset-env', // Transforma o código JS moderno
-                            ['@babel/preset-react', { 'runtime': 'automatic' }] // JSX Transform para React 18
+                            '@babel/preset-env',
+                            ['@babel/preset-react', { runtime: 'automatic' }],
                         ],
                     },
                 },
+            },
+            {
+                test: /\.css$/i, // Processa arquivos CSS
+                use: ['style-loader', 'css-loader'], // Aplica os loaders
             },
         ],
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './app/Views/react_app.php', // Ajuste o caminho correto do template
-            filename: '../../app/Views/react_app.php', // Gerar o HTML na pasta certa
+            template: './app/Views/react_app.php', // Caminho do template
+            filename: '../../app/Views/react_app.php', // Caminho de saída
         }),
     ],
     resolve: {

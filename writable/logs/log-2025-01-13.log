@@ -693,3 +693,5 @@ WHERE `id` = :id:', [...], false)
 10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 20:43:37 --> Nenhum usuário encontrado para o role_id: 
+ERROR - 2025-01-13 20:44:24 --> Nenhum usuário encontrado para o role_id: 

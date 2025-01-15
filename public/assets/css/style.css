@@ -1,0 +1,50 @@
+/* Estilos para o layout da Topbar */
+.topbar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+}
+
+.topbar button {
+  float: right;
+}
+
+/* Estilos para a Sidebar */
+.sidebar {
+  background-color: #f8f9fa;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Ajuste do layout para que o conteúdo se encaixe entre as barras */
+#wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+#content-wrapper {
+  margin-left: 250px; /* Espaço para a Sidebar */
+  padding: 20px;
+  width: 100%;
+}

@@ -1,50 +1,74 @@
-/* Estilos para o layout da Topbar */
+
+/* Topbar translúcida */
 .topbar {
-  background-color: #343a40;
+  background-color: rgba(52, 58, 64, 0.8); /* Fundo translúcido */
   color: white;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 250px; /* Começa após a Sidebar */
+  width: calc(100% - 250px); /* Ocupa o resto da largura */
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+  backdrop-filter: blur(10px); /* Aplica desfoque */
 }
 
-.topbar button {
-  float: right;
-}
 
-/* Estilos para a Sidebar */
+/* Sidebar com logo */
 .sidebar {
-  background-color: #f8f9fa;
+  background-color: #343a40; /* Cor sólida */
   width: 250px;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
+  color: white; /* Cor do texto */
 }
 
+.sidebar-logo img {
+  width: 160px; /* Largura desejada */
+  height: 90px; /* Altura calculada com base na proporção 16:9 */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: block;
+}
+
+.sidebar-logo {
+  text-align: center; /* Centraliza o texto embaixo da logo */
+  padding: 20px;
+  background-color: #343a40; /* Cor sólida para o fundo */
+  color: white;
+}
 .sidebar ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0;
 }
 
 .sidebar ul li {
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .sidebar ul li a {
   text-decoration: none;
-  color: #333;
+  color: #ddd; /* Texto mais claro */
 }
 
 .sidebar ul li a:hover {
-  background-color: #ddd;
+  background-color: #495057; /* Sutil ao passar o mouse */
 }
 
-/* Ajuste do layout para que o conteúdo se encaixe entre as barras */
+
 #wrapper {
   display: flex;
-  min-height: 100vh;
+  margin-top: 50px; /* Espaço para a Topbar */
 }
 
 #content-wrapper {
   margin-left: 250px; /* Espaço para a Sidebar */
   padding: 20px;
-  width: 100%;
+  width: calc(100% - 250px); /* Ajusta largura para o restante da tela */
+}
+
+h1, h4 {
+  margin: 0;
+  text-align: center;
 }

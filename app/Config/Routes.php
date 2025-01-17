@@ -12,6 +12,7 @@ $routes->post('/authenticate', 'AuthController::authenticate');
 $routes->get('logout', 'AuthController::login');
 $routes->get('boas-vindas', 'InicioController::index');
 $routes->get('admin/dashboard', 'AdminController::dashboard');
+$routes->get('inicio/get_logo_url', 'InicioController::getLogoUrl');
 
 
 $routes->get('/react', 'ReactApp::index');

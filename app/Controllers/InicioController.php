@@ -16,6 +16,14 @@ class InicioController extends Controller
         // Passa a variável para a view
         return view('inicio/index', ['role' => $role]);
     }
+    public function getLogoUrl()
+    {
+        // Caminho completo para a logo, considerando a pasta public
+        $logoUrl = base_url('assets/imagens/logo.png');
+        
+        // Retorna o caminho da logo em formato JSON
+        return $this->response->setJSON(['logo_url' => $logoUrl]);
+    }
 }
 
 

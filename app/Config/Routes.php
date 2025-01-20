@@ -12,11 +12,10 @@ $routes->post('/authenticate', 'AuthController::authenticate');
 $routes->get('logout', 'AuthController::login');
 $routes->get('boas-vindas', 'InicioController::index');
 $routes->get('admin/dashboard', 'AdminController::dashboard');
-$routes->get('inicio/get_logo_url', 'InicioController::getLogoUrl');
-
-
+$routes->get('api/get_logo_url', 'ApiController::get_logo_url');
+// app/Config/Routes.php
+$routes->post('api/cadastro_administrador', 'CadastroController::cadastro_administrador');
 $routes->get('/react', 'ReactApp::index');
-
 
 $routes->group('proprietario', function ($routes) {
     $routes->get('/', 'ProprietarioController::index'); // A rota principal é 'proprietario/'

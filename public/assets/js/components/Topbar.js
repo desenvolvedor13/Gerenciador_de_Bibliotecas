@@ -7,7 +7,7 @@ const Topbar = ({ institutionName, role }) => {
         <span className="navbar-brand">
           SisB - {institutionName} - {role}
         </span>
-        <a href="#" className="btn btn-danger logout">
+        <a href="#" className="btn logout">
           Sair
         </a>
       </div>

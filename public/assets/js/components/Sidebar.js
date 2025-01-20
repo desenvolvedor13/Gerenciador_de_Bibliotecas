@@ -1,37 +1,38 @@
-import React, { useEffect, useState } from "react";
-import { getLogoUrl } from './api'; // Importando a função getLogoUrl
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';  // Importando Link do React Router
 
 const Sidebar = () => {
-  const [logoPath, setLogoPath] = useState('');
+  const [logoUrl, setLogoUrl] = useState('');
 
   useEffect(() => {
-    // Chama a função para pegar o caminho da logo quando o componente for montado
-    const fetchLogo = async () => {
-      const logoUrl = await getLogoUrl();
-      setLogoPath(logoUrl);  // Atualiza o estado com o caminho da logo
-    };
-
-    fetchLogo();  // Chama a função
-  }, []); // A dependência vazia faz com que execute apenas uma vez no mount
+    axios.get('http://localhost/SIG_B/public/api/get_logo_url')
+      .then(response => {
+        setLogoUrl(response.data.logo_url);
+      })
+      .catch(error => {
+        console.error('Erro ao buscar a logo:', error);
+      });
+  }, []);
 
   return (
-    <div className="sidebar" id="sidebar">
-      {/* Exibindo a logo se o caminho for encontrado */}
-      {logoPath ? (
-        <img src={logoPath} alt="SisB Logo" style={{ width: '100%' }} />
-      ) : (
-        <p>Carregando logo...</p>  // Exibe uma mensagem enquanto carrega
-      )}
-
-      <ul>
+    <div className="sidebar">
+      <div className="sidebar-logo">
+        {logoUrl ? (
+          <img src={logoUrl} alt="Logo" />
+        ) : (
+          <p>Carregando logo...</p>
+        )}
+      </div>
+       <ul>
         <li className="nav-item">
-          <a className="nav-link" href="#">Adicionar Administrador</a>
+          <Link className="nav-link" to="/adicionar-administrador">Adicionar Administrador</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Listar Administradores</a>
+          <Link className="nav-link" to="/listar-administradores">Listar Administradores</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Configurações</a>
+          <Link className="nav-link" to="/configuracoes">Configurações</Link>
         </li>
       </ul>
     </div>

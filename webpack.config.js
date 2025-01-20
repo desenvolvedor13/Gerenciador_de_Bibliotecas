@@ -29,6 +29,7 @@ module.exports = {
             },
         ],
     },
+    
     plugins: [
         new HtmlWebpackPlugin({
             template: './app/Views/react_app.php', // Caminho do template
@@ -36,6 +37,9 @@ module.exports = {
         }),
     ],
     resolve: {
-        extensions: ['.js', '.jsx'],
+    alias: {
+      api: path.resolve(__dirname, 'public/assets/js/api')  // Defina um alias para facilitar a importação
     },
+    extensions: ['.js', '.jsx']  // Certifique-se de que o Webpack está resolvendo arquivos .js e .jsx
+  },
 };

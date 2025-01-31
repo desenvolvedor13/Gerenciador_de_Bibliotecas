@@ -55,7 +55,20 @@ class AuthController extends Controller
                 'nome' => $user['nome'],
                 'role' => $role['name'] ?? 'Desconhecido'
         ]);
-
+        var_dump($role);
+        // Redireciona com base na permissão
+    switch ($role['id']) {
+        case 1: // Proprietário
+            return redirect()->to('/proprietario');
+        case 2: // Bibliotecário
+            return redirect()->to('/bibliotecario_view');
+        case 3: // Administrador
+            return redirect()->to('/administrador_view');
+        default:
+            session()->setFlashdata('error', 'Permissão inválida.');
+            return redirect()->to('login');
+    }
+        
         return redirect()->to('/boas-vindas');
     }
     

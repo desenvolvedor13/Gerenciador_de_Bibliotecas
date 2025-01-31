@@ -14,7 +14,7 @@ class PessoaModel extends Model
 {
     protected $table = 'pessoa';
     protected $primaryKey = 'id';   // Chave primária da tabela
-    protected $allowedFields = ['nome', 'cpf', 'tipo_pessoa'];
+    protected $allowedFields = ['nome', 'cpf', 'data_cadastro', 'tipo_pessoa'];
     protected $useTimestamps = true; // Se a tabela utiliza colunas de timestamp (created_at, updated_at)
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';

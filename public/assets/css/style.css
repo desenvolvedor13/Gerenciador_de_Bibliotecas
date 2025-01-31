@@ -1,0 +1,103 @@
+
+/* Sidebar com logo e texto */
+.sidebar {
+  background-color: #343a40; /* Cor sólida */
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white; /* Cor do texto */
+  display: flex; /* Ativa o flexbox */
+  flex-direction: column; /* Organiza os itens na vertical */
+  align-items: center; /* Centraliza horizontalmente */
+  padding: 30px 0; /* Espaçamento interno */
+}
+
+.sidebar-logo {
+  text-align: center;
+  margin-bottom: 20px; /* Espaçamento entre a logo e os itens abaixo */
+}
+
+.sidebar-logo img {
+  width: 100%; /* Ajusta a largura da imagem */
+  max-width: 160px; /* Define um limite de largura */
+  height: auto; /* Mantém a proporção */
+}
+
+.sidebar-text {
+  margin-top: 10px; /* Espaçamento entre a logo e o texto */
+  font-size: 16px; /* Tamanho do texto */
+  color: #ddd; /* Cor do texto */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  width: 100%;
+  text-align: center; /* Centraliza os textos */
+}
+
+.sidebar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ddd; /* Texto mais claro */
+  padding: 10px 0;
+}
+
+.sidebar ul li a:hover {
+  background-color: #495057;
+}
+
+
+/* Ajuste para a Topbar */
+.topbar {
+  background-color: rgba(52, 58, 64, 0.8); /* Fundo translúcido */
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 250px; /* Começa após a Sidebar */
+  width: calc(100% - 250px); /* Ocupa o resto da largura */
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+  backdrop-filter: blur(10px); /* Aplica desfoque */
+}
+
+/* Botão Sair */
+.logout {
+  background-color: #343a40; /* Mesma cor da Sidebar */
+  color: #ddd; /* Cor do texto */
+  border: 1px solid #495057; /* Borda discreta */
+  padding: 5px 15px; /* Tamanho reduzido */
+  border-radius: 5px; /* Bordas arredondadas suaves */
+  font-size: 14px; /* Tamanho do texto menor */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+.logout:hover {
+  background-color: #495057; /* Destaque ao passar o mouse */
+  color: white; /* Texto mais visível */
+}
+
+/* Ajuste para o conteúdo principal */
+#wrapper {
+  display: flex;
+  margin-top: 50px; /* Espaço para a Topbar */
+}
+
+#content-wrapper {
+  margin-left: 250px; /* Espaço para a Sidebar */
+  padding: 20px;
+  width: calc(100% - 250px); /* Ajusta largura para o restante da tela */
+}
+
+h1, h4 {
+  margin: 0;
+  text-align: center;
+}

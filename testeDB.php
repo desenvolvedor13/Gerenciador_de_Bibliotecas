@@ -7,7 +7,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
  */
 
-echo 'teste deploy automático';
+echo 'teste deploy automático 1';
  /*  npx webpack --no-cache --config webpack.config.js
   *  npx webpack
   *  npx webpack --watch --config webpack.config.js
